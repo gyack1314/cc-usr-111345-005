@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "tables": {
+    "facts": {
+      "file": "normal-facts.jsonl",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "bytes": 129,
+      "rows": 3,
+      "fields": [
+        "id",
+        "model",
+        "tenant"
+      ]
+    },
+    "dimensions": {
+      "file": "normal-dimensions.jsonl",
+      "sha256": "96901629d78cadbafd5acf3b0433f06628390691f6b4bd01fc5eb0ee9eedbfdb",
+      "bytes": 183,
+      "rows": 3,
+      "fields": [
+        "id",
+        "model",
+        "selected",
+        "fragment"
+      ]
+    },
+    "fragments": {
+      "file": "normal-fragments.jsonl",
+      "sha256": "7a0cfa22d68787f17bea48d72b7e11a2dd0d253f5481ff6c73567f7b47ed4f4a",
+      "bytes": 152,
+      "rows": 2,
+      "fields": [
+        "id",
+        "generation",
+        "index",
+        "total",
+        "status"
+      ]
+    },
+    "deliveries": {
+      "file": "normal-deliveries.jsonl",
+      "sha256": "109a82af046e2b9613d825832f52250e7d2445c466e503d5396f1c0d2aeebff4",
+      "bytes": 86,
+      "rows": 2,
+      "fields": [
+        "id",
+        "fragment",
+        "order"
+      ]
+    }
+  }
+}
